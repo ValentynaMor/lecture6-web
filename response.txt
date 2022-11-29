@@ -1,0 +1,17 @@
+Cтартовий рядок: HTTP/1.1 200 OK
+
+Заголовки:
+content-type: text/html
+server: IntelliJ IDEA 2022.2.3
+date: Tue, 29 Nov 2022 10:03:32 GMT
+x-frame-options: SameOrigin
+X-Content-Type-Options: nosniff
+x-xss-protection: 1; mode=block
+accept-ranges: bytes cache-control: no-cache
+last-modified: Wed, 09 Nov 2022 15:43:29 GMT
+content-length: 105
+
+Тіло:
+<li>Нагадування 1</li>
+<li>Нагадування 2</li>
+<li>Нагадування 3</li>

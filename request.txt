@@ -1,0 +1,19 @@
+Cтартовий рядок: GET /lecture6-web/_items.html HTTP/1.1
+
+Заголовки:
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,de;q=0.8,uk;q=0.7
+Connection: keep-alive
+Cookie: Idea-45cd1ba9=5a87132f-22fb-4e02-b66d-b30f741b9405
+Host: localhost:63342
+Referer: http://localhost:63342/lecture6-web/index.html?_ijt=b0jb0190o2bf9pklb9bad6i5ho&_ij_reload=RELOAD_ON_SAVE
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+sec-ch-ua: "Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+
+Тіло: не має тіла

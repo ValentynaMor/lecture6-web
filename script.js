@@ -30,3 +30,13 @@ document.getElementById('loadItems').addEventListener('click', () => {
   xhttp.open('GET', '_items.html', true);
   xhttp.send();
 })
+
+// Очищаємо список нагадувань
+document.getElementById('deleteItems').addEventListener('click', () => {
+  const xhttp = new XMLHttpRequest();
+   xhttp.onload = function() {
+      document.getElementById('myList').innerHTML = this.responseText;
+    }
+  xhttp.open('GET', 'deleted_items.html', true);
+  xhttp.send();
+})

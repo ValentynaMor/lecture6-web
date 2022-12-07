@@ -40,3 +40,11 @@ document.getElementById('deleteItems').addEventListener('click', () => {
   xhttp.open('GET', 'deleted_items.html', true);
   xhttp.send();
 })
+
+document.getElementById('scrollToTop').addEventListener('click', function(e) {
+document.getElementById('head').scrollIntoView();
+})
+
+document.getElementById('scrollToEnd').addEventListener('click', function(e) {
+document.getElementById('scrollToTop').scrollIntoView();
+})

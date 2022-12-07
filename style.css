@@ -1,25 +1,48 @@
-h5 {
+.page {                                      /* Селектор за класом */
+        background: #CCFFCC;
+      }
+
+#head {                                      /* Селектор за ідентифікатором */
   text-align: center;
   color: #006400;                           /* колір шрифту */
-  background: #90EE90;                       /* колір фону (16-ричний формат)*/
-  font-family: "Courier New", monospace;  /* шрифт */
-  height: 13px;                           /* висота елементу */
-  width: 550px;                             /* ширина елементу */
-  border: solid #006400 3px;                /* стиль границі елементу */
-  padding: 12px;                          /* відступ від границі елементу до його контенту*/
-  margin: 12px;                           /* відступ від границі елементу до іншого елементу */
+  background: #90EE90;                     /* колір фону (16-ричний формат)*/
+  font-family: "Courier New", monospace;   /* шрифт */
+  height: 13px;                            /* висота елементу */
+  width: 550px;                            /* ширина елементу */
+  border: solid #006400 3px;               /* стиль границі елементу */
+  padding: 12px;                           /* відступ від границі елементу до його контенту*/
+  margin: 12px;                            /* відступ від границі елементу до іншого елементу */
 }
-h1 {
+
+h1 {                                       /* Селектор за типом */
   text-align: center;
-  color: #006400;                           /* колір шрифту */
-  background: #90EE90;                       /* колір фону (16-ричний формат)*/
-  font-family: "Courier New", monospace;  /* шрифт */
+  color: #006400;                          /* колір шрифту */
+  background: #90EE90;                     /* колір фону (16-ричний формат)*/
+  font-family: "Courier New", monospace;   /* шрифт */
   height: 305px;                           /* висота елементу */
-  width: 550px;                             /* ширина елементу */
-  border: solid #006400 3px;                /* стиль границі елементу */
-  padding: 12px;                          /* відступ від границі елементу до його контенту*/
-  margin: 12px;                           /* відступ від границі елементу до іншого елементу */
+  width: 550px;                            /* ширина елементу */
+  border: solid #006400 3px;               /* стиль границі елементу */
+  padding: 12px;                           /* відступ від границі елементу до його контенту*/
+  margin: 12px;                            /* відступ від границі елементу до іншого елементу */
 }
-input {
+
+input {                                    /* Селектор за типом */
         background: #90EE90;
-        };
+        }
+
+ul {                                       /* Селектор за типом */
+        width: 450px;
+        }
+                                           /* Селектор за атрибутом */
+[src='https://www.tadviser.ru/images/5/50/%D0%97%D0%BB%D0%BE%D1%83%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA%D0%B8_%D0%BA%D1%80%D0%B0%D0%B4%D1%83%D1%82_GitHub-%D0%B0%D0%BA%D0%BA%D0%B0%D1%83%D0%BD%D1%82%D1%8B%2C_%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D0%BB%D1%8B%D0%B2%D0%B0%D1%8F_%D1%83%D0%B2%D0%B5%D0%B4%D0%BE%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_%D0%BE%D1%82_CircleCI_27.09.2022.jpg'] {
+width: 533px;
+height: 227px;
+}
+
+input[type='button']:hover {               /* Псевдоклас */
+  background-color: mediumorchid;
+}
+
+p, ul {                                    /* Комбінатор “,” */
+  font-style: italic;
+}
